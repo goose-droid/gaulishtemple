@@ -6,3 +6,17 @@ body{
   background-repeat: no-repeat; 
   background-size: cover;
 }
+
+.header {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background-color: green;
+  text-align:center;
+}
+
+.header_links {
+  display: flex;
+  justify-content: space-around;
+
+}
