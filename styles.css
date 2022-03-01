@@ -8,12 +8,33 @@ body{
 
 .burger {
   padding: 50px;
-  background: url('photographer.jpg') no-repeat;
+  background: url('photographer.jpg');
   background-size: cover;
   background-color: #cccccc; 
   background-position: center; 
   background-repeat: no-repeat; 
   background-size: cover;
+  display: flex;
+  flex-direction:column;
+  align-content: center;
+  justify-content: center;
+}
+
+.burgertext {
+  background-color: rgb(7, 27, 13);
+  color:#cccccc;
+}
+
+form {
+  text-align: center;
+}
+
+h1 {
+  margin: 0px;
+}
+
+h3 {
+  margin: 0px;
 }
 
 .header {
