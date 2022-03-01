@@ -1,13 +1,25 @@
 body{
-  background-image: url("photographer.jpg"); 
+  display: flex;
+  flex-direction:column;
+  justify-content: space-between;
+  
+  margin: 0;
+}
+
+.burger {
+  padding: 50px;
+  background: url('photographer.jpg') no-repeat;
+  width: 100%;
+  height: 100%;
+  background-size: contain;
   background-color: #cccccc; 
-  height: 500px; 
   background-position: center; 
   background-repeat: no-repeat; 
   background-size: cover;
 }
 
 .header {
+  margin: 0;
   display: flex;
   justify-content: center;
   flex-direction: column;
