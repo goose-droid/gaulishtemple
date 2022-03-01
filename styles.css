@@ -1,9 +1,8 @@
-body{
+body {
   display: flex;
-  flex-direction:column;
-  justify-content: space-between;
-  
+  flex-direction: column;
   margin: 0;
+  height:100vh;
 }
 
 .burger {
@@ -16,8 +15,9 @@ body{
   background-size: cover;
   display: flex;
   flex-direction:column;
-  align-content: center;
-  justify-content: center;
+  align-content: space-around;
+  justify-content: space-around;
+  flex: 1;
 }
 
 .burgertext {
