@@ -5,6 +5,11 @@ body {
   height:100vh;
 }
 
+a {
+  text-decoration:none;
+  color:rgb(7, 27, 13)
+}
+
 .burger {
   padding: 50px;
   background: url('photographer.jpg');
@@ -40,10 +45,11 @@ h3 {
 .header {
   margin: 0;
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   flex-direction: column;
   background-color: green;
   text-align:center;
+  padding: 10px;
 }
 
 .header_links {
