@@ -142,3 +142,9 @@ h3:hover {
 
 
 }
+
+.burger_scenery {
+  display:flex;
+  flex-direction:column;
+  justify-content: space-around;
+}
