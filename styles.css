@@ -10,6 +10,16 @@ body {
   background-repeat: no-repeat; 
 }
 
+.bgOne{
+  background:url(Forest.jpg);
+}
+.bgTwo{
+  background:url(photographer.jpg);
+}
+.bgThree{
+  background:url(campfire.jpg);
+}
+
 h1 a:link {
   text-decoration:none;
   color:#010d20;
@@ -143,9 +153,4 @@ h3:hover {
 
 }
 
-.burger_scenery {
-  display:flex;
-  flex-direction:column;
-  justify-content: space-around;
-}
 

@@ -8,7 +8,7 @@
     
 
   </head>
-  <body>
+  <body id="pageBody" class="bgOne">
     
     <div class="header">
         <h1><a href="index.html">A Gaulish Temple Site</a></h1>
@@ -16,15 +16,22 @@
           <h3><a href=about.html>About</a></h3>
           <h3><a href =credits.html>Credits</a></h3>
           <h3><a href=scenery.html>Change Scenery</a></h3>
+          <select id="theSwitch" onchange="switchBG()">
+            <option value="0">Choose Background</option>
+            <option value="1">BG 1</option>
+            <option value="2">BG 2</option>
+            <option value="3">BG 3</option>
+          </select>
           <h3><a href=links.html>Links</a></h3>
         </div>
     </div>
     <div class = "burger_scenery">
-      <button id="lakeside_button">Lakeside</button>
-      <button id="forest_button">Forest</button>
-      <button id="seaside_button">Seaside</button>
-      <button id="campfire_button">Campfire</button>
-      <button id="mountains_button">Mountains</button>
+      <select id="theSwitch" onchange="switchBG()">
+        <option value="0">Choose Background</option>
+        <option value="1">BG 1</option>
+        <option value="2">BG 2</option>
+        <option value="3">BG 3</option>
+      </select>
     </div>
     <script src="backgrounds.js"></script>
    
