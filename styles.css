@@ -11,13 +11,61 @@ body {
 }
 
 .bgOne{
-  background:url(Forest.jpg);
+  background:url(photographer.jpg);
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  height:100vh;
+  background-size: cover;
+  background-color: #cccccc; 
+  background-position: center; 
+  background-repeat: no-repeat; 
 }
 .bgTwo{
-  background:url(photographer.jpg);
+  background:url(Forest.jpg);
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  height:100vh;
+  background-size: cover;
+  background-color: #cccccc; 
+  background-position: center; 
+  background-repeat: no-repeat; 
 }
 .bgThree{
   background:url(campfire.jpg);
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  height:100vh;
+  background-size: cover;
+  background-color: #cccccc; 
+  background-position: center; 
+  background-repeat: no-repeat; 
+}
+
+.bgFour {
+  background:url(seaside.jpg);
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  height:100vh;
+  background-size: cover;
+  background-color: #cccccc; 
+  background-position: center; 
+  background-repeat: no-repeat; 
+}
+
+.bgFive {
+  background:url(mountains.jpg);
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  height:100vh;
+  background-size: cover;
+  background-color: #cccccc; 
+  background-position: center; 
+  background-repeat: no-repeat; 
 }
 
 h1 a:link {
@@ -111,6 +159,13 @@ h1:hover {
 
 form {
   text-align: center;
+  display:flex;
+  flex-direction:column;
+}
+
+.submitbtn {
+  max-width:100px;
+  min-height: 40px;
 }
 
 h1 {

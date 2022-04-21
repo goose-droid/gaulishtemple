@@ -8,5 +8,9 @@ function switchBG(){
         page.className = "bgTwo";
     } else if(img == 3){
         page.className = "bgThree";
+    } else if(img == 4){
+        page.className = "bgFour";
+    } else if(img == 5){
+        page.className = "bgFive";
     }
     }

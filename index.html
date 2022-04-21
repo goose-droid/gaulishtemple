@@ -5,18 +5,23 @@
     <title>A Gaulish Temple</title>
     <link rel="stylesheet" href="styles.css"/>
     <script src="clear.js"></script>
-   
+    
 
   </head>
-  <body>
-
+  <body id="pageBody" class="bgOne">
+      <script src="backgrounds.js"></script>
     <div class="header">
         <h1><a href=index.html>A Gaulish Temple Site</a></h1>
         <div class="header_links">
           <h3><a href=about.html>About</a></h3>
-          <h3><a href =credits.html>Credits</a></h3>
-          <h3><a href=scenery.html>Change Scenery</a></h3>
-          <h3><a href=links.html>Links</a></h3>
+          <select id="theSwitch" onchange="switchBG()">
+            <option value="0">Choose Background</option>
+            <option value="1">Lakeside</option>
+            <option value="2">Forest</option>
+            <option value="3">Campfire</option>
+            <option value="4">Seaside</option>
+            <option value="5">Mountains</option>
+          </select>
         </div>
     </div>
     <div class = "burger_index">
@@ -31,7 +36,9 @@
       <div>
         <form>
           <textarea id="output" rows="20" cols="75"></textarea>
-          <input type="button" value="Submit" onclick="clear:erasetext();">
+          
+          <input  class="submitbtn" type="button" value="Submit" onclick="clear:erasetext();">
+        
         </form>
       </div>
 
