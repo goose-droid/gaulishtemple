@@ -4,7 +4,7 @@ body {
   margin: 0;
   height:100vh;
   background-size: cover;
-  background-color: ; 
+  
   background-position: center; 
   background-repeat: no-repeat; 
 }
@@ -150,6 +150,13 @@ h1:hover {
   font-size: 32px;
   padding: 20px;
   padding-bottom:0px;
+}
+
+.ialamos {
+  font-family:'Times New Roman', Times, serif;
+  font-size: 28px;
+  padding: 10px;
+  
 }
 
 .info {
