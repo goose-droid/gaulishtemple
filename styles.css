@@ -254,4 +254,15 @@ h3:hover {
   transform: scale(1.1);
 }
 
+.fileup {
+  background-color: #071b0d;
+  color:#ffffff;
+  border-radius: 25px;
+  padding: 15px;
+  opacity: 0.8;
+}
 
+.bottomform {
+  display: flex;
+  justify-content: space-between;
+}

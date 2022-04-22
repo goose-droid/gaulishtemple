@@ -31,15 +31,16 @@
         <div class="subuta">Subuta!
         </div>
         <div class="info">
-        This is a space for anyone to come and offer prayer to the gods, spirits, and others. The text you enter on the text box below is not saved: it is cleared when you click "submit." Feel free to look at the About page for more information. Dêwoi co te!
+        This is a space for anyone to come and offer prayer and digital offerings to the gods, spirits, and any other beings. The text you enter in the text box and the files you choose <b>are not saved.</b> The "clear" button simply clears the fields. Feel free to look at the About page for more information about the site, and use the drop-down menu in the upper right to change the background image. <b>Dêwoi co te! May the gods be with you!</b>
         </div>
       </div>
       <div>
         <form>
           <textarea id="output" rows="20" cols="50"></textarea>
-          
-          <input  class="submitbtn" type="button" value="Submit" onclick="clear:erasetext();">
-        
+          <div class="bottomform">
+            <input class="fileup" type="file" id="myFile" name="filename">
+            <input  class="submitbtn" type="button" value="Clear" onclick="clear:erasetext();clear:clearfile();">
+          </div>
         </form>
       </div>
 
